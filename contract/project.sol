@@ -6,7 +6,7 @@ contract Project {
     struct LostItem {
         uint256 itemId;
         address owner;
-        string itemDescription;
+        string itemDescription;  
         string location;
         uint256 rewardAmount;
         bool isFound;
